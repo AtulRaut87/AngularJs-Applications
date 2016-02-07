@@ -1,0 +1,38 @@
+   {
+    "Persons":[{
+        "firstName":"Atul",
+        "lastName":"Raut",
+        "contactNumber":"224-829-9909"
+    },
+    {
+        "firstName" :"Sujal",
+        "lastName":"Raut",
+        "contactNumber":"224-829-4534"
+    },
+    {
+        "firstName":"Narpati",
+        "lastName":"Jha",
+        "contactNumber":"233-829-2323"
+    },
+    {
+        "firstName":"Indu",
+        "lastName":"Jha",
+        "contactNumber":"224-553-5656"
+    },
+    {
+        "firstName":"Anis",
+        "lastName":"Qazi",
+        "contactNumber":"565-343-7698"
+    },
+    {
+        "firstName":"Amit",
+        "lastName":"Patil",
+        "contactNumber":"676-343-2337"
+    },
+    {
+        "firstName":"Ruwaida",
+        "lastName":"Qazi",
+        "contactNumber":"989-545-2323"
+    }]
+    
+}
