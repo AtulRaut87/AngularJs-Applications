@@ -6,11 +6,30 @@
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="style.css" />
         <script src="bower_components/angular/angular.js"></script>
+        <script src="messagelist/messagelist.module.js"></script>
+        <script src="messagelist/messagelist.component.js"></script>
         <script src="app.module.js"></script>
        
     </head>
           
     <Body>
-    here {{1+3}}
+        <table>
+            <tr>
+                <td>Atul Raut</td>
+                <td style="text-align: right;">Search <input type="text"></td>
+            </tr>
+             <tr>
+                <td>
+                    <table style="width:25%;">
+                        <tr><td><a>inbox</a></td></tr>
+                         <tr><td><a>Draft</a></td></tr>
+                         <tr><td><a>Sent</a></td></tr>
+                         <tr><td><a>Delelted</a></td></tr>
+                    </table>
+                </td>
+                <td style="text-align: left;"><message-list></message-list></td>
+            </tr>
+        </table>
+        
     </Body>
 </html>

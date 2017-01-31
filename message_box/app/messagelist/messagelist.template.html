@@ -1,0 +1,17 @@
+<Table >
+    <tr style="background-color:blue">
+        <td>From</td>
+        <td>Subject</td>
+        <td>Date-Time</td>
+    </tr>
+    <tr ng-repeat="message in $ctrl.messages">
+        <td>  {{message.from}}</td>
+        <td>  {{message.subject}}</td>
+        <td>  {{message.datetime}}</td>
+    </tr>
+    <tr style="background-color:blue">
+        <td><a href="#"><< Prev</a></td>
+        <td>Page 1</td>
+        <td><a href="#">Next >></a></td>
+    </tr>
+</Table>
