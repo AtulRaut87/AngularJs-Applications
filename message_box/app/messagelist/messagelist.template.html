@@ -1,10 +1,15 @@
 <Table >
+    <tr>
+        <td></td>
+        <td></td>
+        <td style="text-align: right;">Search <input style="color:black" ng-model="$ctrl.searchQuery" type="text"></td>
+    </tr>
     <tr style="background-color:blue">
         <td>From</td>
         <td>Subject</td>
         <td>Date-Time</td>
     </tr>
-    <tr ng-repeat="message in $ctrl.messages">
+    <tr ng-repeat="message in $ctrl.messages | filter:$ctrl.searchQuery ">
         <td>  {{message.from}}</td>
         <td>  {{message.subject}}</td>
         <td>  {{message.datetime}}</td>

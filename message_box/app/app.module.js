@@ -1,2 +1,2 @@
 'use strict';
-angular.module('messageBoxApp',['messageList']);
+angular.module('messageBoxApp',['ngRoute','messageList','messageDetails']);
